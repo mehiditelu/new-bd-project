@@ -31,6 +31,10 @@
     padding: 15px 30px;
 }
 
+#btn1:hover {
+    background-color: darkgreen;
+  }
+
 /* first section */
 
 #hero1 {
@@ -66,6 +70,10 @@
     color: white;
     padding: 15px 30px;
 }
+
+#btn2:hover {
+    background-color: darkgreen;
+  }
 
 #hero2 {
     margin: 20px 130px;
@@ -145,6 +153,10 @@
     padding: 15px 30px;
 }
 
+#btn3:hover {
+    background-color: darkgreen;
+  }
+
 #btn4 {
     border: 0;
     border-radius: 8px;
@@ -154,6 +166,10 @@
     padding: 15px 30px;
 }
 
+#btn4:hover {
+    background-color: darkgreen;
+  }
+
 #btn5 {
     border: 0;
     border-radius: 8px;
@@ -162,6 +178,37 @@
     font-weight: bold;
     color: white;
     padding: 15px 30px;
+}
+
+#btn5:hover {
+    background-color: darkgreen;
+  }
+
+/* quote */
+
+#quote {
+    padding: 15px 15px;
+    background-color: rgba(227, 222, 222, 0.584);
+    border-radius: 22px;
+    padding-bottom: 30px;
+}
+
+#usuf1 {
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    color: rgb(14, 14, 14);
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+#usuf2 {
+    color: rgb(14, 14, 14);
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 
 /* news section */
@@ -208,6 +255,10 @@
     padding: 15px 30px;
 }
 
+.nsbtn:hover {
+    background-color: darkgreen;
+  }
+
 #taka {
     display: flex;
     justify-content: space-between;
@@ -230,3 +281,56 @@
     width: 100%;
     padding: 12px 20px;
 }
+
+/* subscr */
+#subs {
+    padding: 10px 10px;
+    background-color: rgb(198, 228, 214);
+    ;
+    border-radius: 22px;
+    padding: 20px 20px;
+}
+
+#sust {
+    color: rgb(14, 14, 14);
+    font-size: 34px;
+    font-weight: 700;
+    padding-top: 40px;
+    text-align: center;
+}
+
+#sust2 {
+    color: rgba(14, 14, 14, 0.763);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 90px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+#subform {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    margin-bottom: 10px;
+}
+
+#inpt {
+    border: 1px solid #ccc;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 360px;
+}
+
+#subtn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #116d54;
+    color: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#subtn:hover {
+    background-color: darkgreen;
+  }
